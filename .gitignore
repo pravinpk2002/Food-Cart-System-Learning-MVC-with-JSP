@@ -1,0 +1,59 @@
+# Compiled source files
+*.class
+
+# Logs
+*.log
+
+# Package Files
+*.jar
+*.war
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+
+# Eclipse
+.project
+.classpath
+.settings/
+target/
+
+
+
+# Maven target directory
+/target/
+
+# Node modules if applicable
+node_modules/
+
+# Generated files
+*.properties~
+*.sql~
+*.xml~
+*.json~
+
+# Deployment artifacts
+*.log
+*.pid
+*.seed
+
+# JetBrains IDE
+.idea/
+*.iml
+
+# Tomcat temporary files
+/tomcat/work/
+/tomcat/temp/
+/tomcat/logs/
+/tomcat/conf/Catalina/
+
+# Local environment settings
+.env
