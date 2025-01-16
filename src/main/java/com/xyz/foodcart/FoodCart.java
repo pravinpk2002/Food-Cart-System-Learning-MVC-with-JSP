@@ -18,8 +18,7 @@ public class FoodCart extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// get the data from the database(model)
-		String[] items = {"biryani","pizza","burger","pav bhaji"};
-		req.setAttribute("items", items);
+	
 		
 		 List<Food> foodItems = FoodCartDbUtil.getFoodList();
 		 req.setAttribute("foodItems", foodItems);
